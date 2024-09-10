@@ -13,11 +13,13 @@ void main() {
   person1.displayAccount();
 }
 
+//Class
 class Account {
   String? userName;
   String? userAccountNumber;
   double? accountBalance;
 
+  //Constructor
   Account(
     this.userName,
     this.userAccountNumber,
