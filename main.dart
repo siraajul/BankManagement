@@ -30,7 +30,7 @@ class Account {
   void balanceDeposit(double amount) {
     if (amount > 0) {
       accountBalance = accountBalance! + amount;
-      print('Successfully Deposited');
+      print('Successfully Deposited $amount');
       print('New Balance is $accountBalance');
       print('----------------------------------------------');
     } else {
